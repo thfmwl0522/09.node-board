@@ -1,0 +1,18 @@
+.wrapper {padding:3rem; display:flex; justify-content:space-between; max-width:1600px; margin:auto;}
+.wrapper .box {width:200px; height:200px;}
+.wrapper .box1 {background-color: red;}
+.wrapper .box2 {background-color: green}
+.wrapper .box3 {background-color: blue;}
+
+
+ 
+/* 
+1. animation-name: 키프레임 이름
+2. animaiton-duration:2s; //애니메이션 작동시간
+3. animation-full-mode: backward/forward; // 애니메이션 종료 후 처음으로(backward) or 애니메이션 종료 후 마지막 프레임(forward)에 남는다.
+4. animation-iteration-count:1/2...infinite //애니메이션 반복 횟수
+5. animation-delay: 0/2s   //애니메이션 딜레이 시간
+6. animation-timing-function: ease/linear //애니메이션 물리엔진
+7. animaiton-direction: normal/revers/alternate //애니메이션 방향
+8. animation-play-state :
+*/
