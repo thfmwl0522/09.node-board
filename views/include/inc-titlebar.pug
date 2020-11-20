@@ -1,0 +1,14 @@
+.jumbotron.title-bar
+	h1= `${title ? title : '...'}`
+		small= `${titleSub ? titleSub : '...'}`
+	hr
+	if file == 'book-list'
+		a.btn.btn-primary(href="/book/write") 도서등록
+	if file == 'book-write' || file == 'book-update' || file == 'book-view'
+		a.btn.btn-info(href="/book/list") 도서리스트
+	if file == 'user-join'
+		.text-primary.py-2 이미 회원이시면 아래의 링크를 이용하여 로그인 하세요.
+		a.btn.btn-info(href="/user/login") 회원 로그인
+	if file == 'user-login'
+		.text-primary.py-2 회원으로 가입하셔서 다양한 혜택을 이용하세요.
+		a.btn.btn-primary(href="/user/join") 회원 가입

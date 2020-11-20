@@ -4,24 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app",
+    "test": "node app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thfmwl0522/09.node-board.git"
+    "url": "git+https://github.com/booldook/2020-kn-pb2-09-node-board.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thfmwl0522/09.node-board/issues"
+    "url": "https://github.com/booldook/2020-kn-pb2-09-node-board/issues"
   },
-  "homepage": "https://github.com/thfmwl0522/09.node-board#readme",
+  "homepage": "https://github.com/booldook/2020-kn-pb2-09-node-board#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "fs-extra": "^9.0.1",
+    "http-errors": "^1.7.2",
     "moment": "^2.29.1",
+    "multer": "^1.4.2",
     "mysql2": "^2.2.5",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "uuid": "^8.3.1"
   }
 }
